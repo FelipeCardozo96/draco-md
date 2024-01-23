@@ -1,6 +1,11 @@
 import Image from "next/image";
 import styles from "./home.module.css";
 
+export const metadata = {
+  title: "Inicio | Draco Md",
+  description: "Agencia dedicada al diseño y desarrollo de páginas web. Como también identidad de marca, SEO, SEM y mucho más",
+};
+
 const Home = () => {
 
 
